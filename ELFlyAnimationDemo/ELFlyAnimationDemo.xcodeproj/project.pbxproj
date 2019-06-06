@@ -1,0 +1,1602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC509ABF22A667D400601E2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509ABE22A667D400601E2F /* AppDelegate.m */; };
+		BC509AC222A667D400601E2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509AC122A667D400601E2F /* ViewController.m */; };
+		BC509AC522A667D400601E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC509AC322A667D400601E2F /* Main.storyboard */; };
+		BC509AC722A667D400601E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC509AC622A667D400601E2F /* Assets.xcassets */; };
+		BC509ACA22A667D400601E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC509AC822A667D400601E2F /* LaunchScreen.storyboard */; };
+		BC509ACD22A667D400601E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509ACC22A667D400601E2F /* main.m */; };
+		BC509AD722A667D400601E2F /* ELFlyAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509AD622A667D400601E2F /* ELFlyAnimationDemoTests.m */; };
+		BC509AE222A667D400601E2F /* ELFlyAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509AE122A667D400601E2F /* ELFlyAnimationDemoUITests.m */; };
+		BC509AFA22A667FB00601E2F /* ELRewardAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509AF222A667FB00601E2F /* ELRewardAnimationManager.m */; };
+		BC509AFB22A667FB00601E2F /* ELRewardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509AF522A667FB00601E2F /* ELRewardButton.m */; };
+		BC509AFC22A667FB00601E2F /* ELRewardAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509AF622A667FB00601E2F /* ELRewardAnimationView.m */; };
+		BC509AFD22A667FB00601E2F /* ELRewardRMBScrollAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509AF822A667FB00601E2F /* ELRewardRMBScrollAnimationView.m */; };
+		BC509B4422A6680C00601E2F /* reward_888_img_10.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0122A6680C00601E2F /* reward_888_img_10.png */; };
+		BC509B4522A6680C00601E2F /* reward_888_img_11.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0222A6680C00601E2F /* reward_888_img_11.png */; };
+		BC509B4622A6680C00601E2F /* reward_888_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0322A6680C00601E2F /* reward_888_img_1.png */; };
+		BC509B4722A6680C00601E2F /* reward_888_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0422A6680C00601E2F /* reward_888_img_0.png */; };
+		BC509B4822A6680C00601E2F /* reward_888_img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0522A6680C00601E2F /* reward_888_img_2.png */; };
+		BC509B4922A6680C00601E2F /* reward_888_img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0622A6680C00601E2F /* reward_888_img_3.png */; };
+		BC509B4A22A6680C00601E2F /* reward_888_img_7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0722A6680C00601E2F /* reward_888_img_7.png */; };
+		BC509B4B22A6680C00601E2F /* reward_888_img_6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0822A6680C00601E2F /* reward_888_img_6.png */; };
+		BC509B4C22A6680C00601E2F /* reward_888_img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0922A6680C00601E2F /* reward_888_img_4.png */; };
+		BC509B4D22A6680C00601E2F /* reward_888_img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0A22A6680C00601E2F /* reward_888_img_5.png */; };
+		BC509B4E22A6680C00601E2F /* reward_888_img_8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0B22A6680C00601E2F /* reward_888_img_8.png */; };
+		BC509B4F22A6680C00601E2F /* reward_888_img_9.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0C22A6680C00601E2F /* reward_888_img_9.png */; };
+		BC509B5022A6680C00601E2F /* reward_888_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0D22A6680C00601E2F /* reward_888_data.json */; };
+		BC509B5122A6680C00601E2F /* reward_666_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC509B0F22A6680C00601E2F /* reward_666_data.json */; };
+		BC509B5222A6680C00601E2F /* reward_666_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1122A6680C00601E2F /* reward_666_img_1.png */; };
+		BC509B5322A6680C00601E2F /* reward_666_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1222A6680C00601E2F /* reward_666_img_0.png */; };
+		BC509B5422A6680C00601E2F /* reward_666_img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1322A6680C00601E2F /* reward_666_img_2.png */; };
+		BC509B5522A6680C00601E2F /* reward_666_img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1422A6680C00601E2F /* reward_666_img_3.png */; };
+		BC509B5622A6680C00601E2F /* reward_666_img_7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1522A6680C00601E2F /* reward_666_img_7.png */; };
+		BC509B5722A6680C00601E2F /* reward_666_img_6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1622A6680C00601E2F /* reward_666_img_6.png */; };
+		BC509B5822A6680C00601E2F /* reward_666_img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1722A6680C00601E2F /* reward_666_img_4.png */; };
+		BC509B5922A6680C00601E2F /* reward_666_img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1822A6680C00601E2F /* reward_666_img_5.png */; };
+		BC509B5A22A6680C00601E2F /* reward_233_img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1B22A6680C00601E2F /* reward_233_img_3.png */; };
+		BC509B5B22A6680C00601E2F /* reward_233_img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1C22A6680C00601E2F /* reward_233_img_2.png */; };
+		BC509B5C22A6680C00601E2F /* reward_233_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1D22A6680C00601E2F /* reward_233_img_0.png */; };
+		BC509B5D22A6680C00601E2F /* reward_233_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1E22A6680C00601E2F /* reward_233_img_1.png */; };
+		BC509B5E22A6680C00601E2F /* reward_233_img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B1F22A6680C00601E2F /* reward_233_img_5.png */; };
+		BC509B5F22A6680C00601E2F /* reward_233_img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2022A6680C00601E2F /* reward_233_img_4.png */; };
+		BC509B6022A6680C00601E2F /* reward_233_img_6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2122A6680C00601E2F /* reward_233_img_6.png */; };
+		BC509B6122A6680C00601E2F /* reward_233_img_7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2222A6680C00601E2F /* reward_233_img_7.png */; };
+		BC509B6222A6680C00601E2F /* reward_233_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2322A6680C00601E2F /* reward_233_data.json */; };
+		BC509B6322A6680C00601E2F /* reward_111_img_10.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2622A6680C00601E2F /* reward_111_img_10.png */; };
+		BC509B6422A6680C00601E2F /* reward_111_img_7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2722A6680C00601E2F /* reward_111_img_7.png */; };
+		BC509B6522A6680C00601E2F /* reward_111_img_6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2822A6680C00601E2F /* reward_111_img_6.png */; };
+		BC509B6622A6680C00601E2F /* reward_111_img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2922A6680C00601E2F /* reward_111_img_4.png */; };
+		BC509B6722A6680C00601E2F /* reward_111_img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2A22A6680C00601E2F /* reward_111_img_5.png */; };
+		BC509B6822A6680C00601E2F /* reward_111_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2B22A6680C00601E2F /* reward_111_img_1.png */; };
+		BC509B6922A6680C00601E2F /* reward_111_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2C22A6680C00601E2F /* reward_111_img_0.png */; };
+		BC509B6A22A6680C00601E2F /* reward_111_img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2D22A6680C00601E2F /* reward_111_img_2.png */; };
+		BC509B6B22A6680C00601E2F /* reward_111_img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2E22A6680C00601E2F /* reward_111_img_3.png */; };
+		BC509B6C22A6680C00601E2F /* reward_111_img_8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B2F22A6680C00601E2F /* reward_111_img_8.png */; };
+		BC509B6D22A6680C00601E2F /* reward_111_img_9.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3022A6680C00601E2F /* reward_111_img_9.png */; };
+		BC509B6E22A6680C00601E2F /* reward_111_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3122A6680C00601E2F /* reward_111_data.json */; };
+		BC509B6F22A6680C00601E2F /* reward_520_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3422A6680C00601E2F /* reward_520_img_1.png */; };
+		BC509B7022A6680C00601E2F /* reward_520_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3522A6680C00601E2F /* reward_520_img_0.png */; };
+		BC509B7122A6680C00601E2F /* reward_520_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3622A6680C00601E2F /* reward_520_data.json */; };
+		BC509B7222A6680C00601E2F /* reward_88_img_7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3922A6680C00601E2F /* reward_88_img_7.png */; };
+		BC509B7322A6680C00601E2F /* reward_88_img_6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3A22A6680C00601E2F /* reward_88_img_6.png */; };
+		BC509B7422A6680C00601E2F /* reward_88_img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3B22A6680C00601E2F /* reward_88_img_4.png */; };
+		BC509B7522A6680C00601E2F /* reward_88_img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3C22A6680C00601E2F /* reward_88_img_5.png */; };
+		BC509B7622A6680C00601E2F /* reward_88_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3D22A6680C00601E2F /* reward_88_img_1.png */; };
+		BC509B7722A6680C00601E2F /* reward_88_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3E22A6680C00601E2F /* reward_88_img_0.png */; };
+		BC509B7822A6680C00601E2F /* reward_88_img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B3F22A6680C00601E2F /* reward_88_img_2.png */; };
+		BC509B7922A6680C00601E2F /* reward_88_img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B4022A6680C00601E2F /* reward_88_img_3.png */; };
+		BC509B7A22A6680C00601E2F /* reward_88_img_8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B4122A6680C00601E2F /* reward_88_img_8.png */; };
+		BC509B7B22A6680C00601E2F /* reward_88_img_9.png in Resources */ = {isa = PBXBuildFile; fileRef = BC509B4222A6680C00601E2F /* reward_88_img_9.png */; };
+		BC509B7C22A6680C00601E2F /* reward_88_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC509B4322A6680C00601E2F /* reward_88_data.json */; };
+		BC509C1222A66C8A00601E2F /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509B7F22A66C8900601E2F /* UIView+Custom.m */; };
+		BC509CE422A6722800601E2F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BC509C5322A6722700601E2F /* LICENSE */; };
+		BC509CE522A6722800601E2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BC509C5422A6722700601E2F /* README.md */; };
+		BC509CE622A6722800601E2F /* LOTRenderNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C5822A6722700601E2F /* LOTRenderNode.m */; };
+		BC509CE722A6722800601E2F /* LOTTrimPathNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C5D22A6722700601E2F /* LOTTrimPathNode.m */; };
+		BC509CE822A6722800601E2F /* LOTColorInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C5F22A6722700601E2F /* LOTColorInterpolator.m */; };
+		BC509CE922A6722800601E2F /* LOTPathInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6022A6722700601E2F /* LOTPathInterpolator.m */; };
+		BC509CEA22A6722800601E2F /* LOTSizeInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6822A6722700601E2F /* LOTSizeInterpolator.m */; };
+		BC509CEB22A6722800601E2F /* LOTPointInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6A22A6722700601E2F /* LOTPointInterpolator.m */; };
+		BC509CEC22A6722800601E2F /* LOTValueInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6B22A6722700601E2F /* LOTValueInterpolator.m */; };
+		BC509CED22A6722800601E2F /* LOTTransformInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6C22A6722700601E2F /* LOTTransformInterpolator.m */; };
+		BC509CEE22A6722800601E2F /* LOTArrayInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6D22A6722700601E2F /* LOTArrayInterpolator.m */; };
+		BC509CEF22A6722800601E2F /* LOTNumberInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6E22A6722700601E2F /* LOTNumberInterpolator.m */; };
+		BC509CF022A6722800601E2F /* LOTAnimatorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C6F22A6722700601E2F /* LOTAnimatorNode.m */; };
+		BC509CF122A6722800601E2F /* LOTPathAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C7122A6722700601E2F /* LOTPathAnimator.m */; };
+		BC509CF222A6722800601E2F /* LOTPolystarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C7222A6722700601E2F /* LOTPolystarAnimator.m */; };
+		BC509CF322A6722800601E2F /* LOTPolygonAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C7322A6722700601E2F /* LOTPolygonAnimator.m */; };
+		BC509CF422A6722800601E2F /* LOTCircleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C7522A6722700601E2F /* LOTCircleAnimator.m */; };
+		BC509CF522A6722800601E2F /* LOTRoundedRectAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C7922A6722700601E2F /* LOTRoundedRectAnimator.m */; };
+		BC509CF622A6722800601E2F /* LOTRenderGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C7C22A6722700601E2F /* LOTRenderGroup.m */; };
+		BC509CF722A6722800601E2F /* LOTGradientFillRender.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C7D22A6722700601E2F /* LOTGradientFillRender.m */; };
+		BC509CF822A6722800601E2F /* LOTStrokeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8222A6722700601E2F /* LOTStrokeRenderer.m */; };
+		BC509CF922A6722800601E2F /* LOTFillRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8322A6722700601E2F /* LOTFillRenderer.m */; };
+		BC509CFA22A6722800601E2F /* LOTRepeaterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8522A6722700601E2F /* LOTRepeaterRenderer.m */; };
+		BC509CFB22A6722800601E2F /* LOTMask.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8722A6722700601E2F /* LOTMask.m */; };
+		BC509CFC22A6722800601E2F /* LOTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8822A6722700601E2F /* LOTLayer.m */; };
+		BC509CFD22A6722800601E2F /* LOTAssetGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8922A6722700601E2F /* LOTAssetGroup.m */; };
+		BC509CFE22A6722800601E2F /* LOTLayerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8E22A6722700601E2F /* LOTLayerGroup.m */; };
+		BC509CFF22A6722800601E2F /* LOTShapeStar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C8F22A6722700601E2F /* LOTShapeStar.m */; };
+		BC509D0022A6722800601E2F /* LOTShapeTrimPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C9022A6722700601E2F /* LOTShapeTrimPath.m */; };
+		BC509D0122A6722800601E2F /* LOTShapeGradientFill.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C9422A6722700601E2F /* LOTShapeGradientFill.m */; };
+		BC509D0222A6722800601E2F /* LOTAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C9722A6722700601E2F /* LOTAsset.m */; };
+		BC509D0322A6722800601E2F /* LOTShapeRepeater.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C9922A6722700601E2F /* LOTShapeRepeater.m */; };
+		BC509D0422A6722800601E2F /* LOTShapeRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509C9B22A6722700601E2F /* LOTShapeRectangle.m */; };
+		BC509D0522A6722800601E2F /* LOTShapeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CA022A6722700601E2F /* LOTShapeCircle.m */; };
+		BC509D0622A6722800601E2F /* LOTShapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CA122A6722700601E2F /* LOTShapePath.m */; };
+		BC509D0722A6722800601E2F /* LOTShapeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CA222A6722700601E2F /* LOTShapeGroup.m */; };
+		BC509D0822A6722800601E2F /* LOTShapeFill.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CA422A6722700601E2F /* LOTShapeFill.m */; };
+		BC509D0922A6722800601E2F /* LOTShapeTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CA522A6722700601E2F /* LOTShapeTransform.m */; };
+		BC509D0A22A6722800601E2F /* LOTShapeStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CA722A6722700601E2F /* LOTShapeStroke.m */; };
+		BC509D0B22A6722800601E2F /* CGGeometry+LOTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CAB22A6722700601E2F /* CGGeometry+LOTAdditions.m */; };
+		BC509D0C22A6722800601E2F /* LOTBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CAC22A6722700601E2F /* LOTBezierPath.m */; };
+		BC509D0D22A6722800601E2F /* LOTRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CAE22A6722700601E2F /* LOTRadialGradientLayer.m */; };
+		BC509D0E22A6722800601E2F /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CB122A6722700601E2F /* UIColor+Expanded.m */; };
+		BC509D0F22A6722800601E2F /* UIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CB422A6722700601E2F /* UIBezierPath.m */; };
+		BC509D1022A6722800601E2F /* UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CB722A6722700601E2F /* UIColor.m */; };
+		BC509D1122A6722800601E2F /* NSValue+Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CBA22A6722700601E2F /* NSValue+Compat.m */; };
+		BC509D1222A6722800601E2F /* CALayer+Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CBB22A6722700601E2F /* CALayer+Compat.m */; };
+		BC509D1322A6722800601E2F /* LOTAnimationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CBD22A6722700601E2F /* LOTAnimationCache.m */; };
+		BC509D1422A6722800601E2F /* LOTComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CBE22A6722700601E2F /* LOTComposition.m */; };
+		BC509D1522A6722800601E2F /* LOTValueCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CBF22A6722700601E2F /* LOTValueCallback.m */; };
+		BC509D1622A6722800601E2F /* LOTBlockCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC022A6722700601E2F /* LOTBlockCallback.m */; };
+		BC509D1722A6722800601E2F /* LOTAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC122A6722700601E2F /* LOTAnimationView.m */; };
+		BC509D1822A6722800601E2F /* LOTAnimationTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC222A6722700601E2F /* LOTAnimationTransitionController.m */; };
+		BC509D1922A6722800601E2F /* LOTKeypath.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC422A6722700601E2F /* LOTKeypath.m */; };
+		BC509D1A22A6722800601E2F /* LOTCacheProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC522A6722700601E2F /* LOTCacheProvider.m */; };
+		BC509D1B22A6722800601E2F /* LOTAnimatedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC622A6722700601E2F /* LOTAnimatedControl.m */; };
+		BC509D1C22A6722800601E2F /* LOTInterpolatorCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC722A6722700601E2F /* LOTInterpolatorCallback.m */; };
+		BC509D1D22A6722800601E2F /* LOTAnimatedSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CC822A6722700601E2F /* LOTAnimatedSwitch.m */; };
+		BC509D1E22A6722800601E2F /* LOTKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CCA22A6722700601E2F /* LOTKeyframe.m */; };
+		BC509D1F22A6722800601E2F /* LOTBezierData.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CCB22A6722700601E2F /* LOTBezierData.m */; };
+		BC509D2022A6722800601E2F /* LOTLayerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CCF22A6722700601E2F /* LOTLayerContainer.m */; };
+		BC509D2122A6722800601E2F /* LOTCompositionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CD322A6722700601E2F /* LOTCompositionContainer.m */; };
+		BC509D2222A6722800601E2F /* LOTMaskContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC509CD422A6722700601E2F /* LOTMaskContainer.m */; };
+		BC63E03322A7B2550024E010 /* ELBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = BC63E03222A7B2550024E010 /* ELBasic.m */; };
+		BC63E03C22A7BA4E0024E010 /* gold_like_coin5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC63E03522A7BA4E0024E010 /* gold_like_coin5.png */; };
+		BC63E03D22A7BA4E0024E010 /* gold_like_coin4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC63E03622A7BA4E0024E010 /* gold_like_coin4.png */; };
+		BC63E03E22A7BA4E0024E010 /* gold_like_coin6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC63E03722A7BA4E0024E010 /* gold_like_coin6.png */; };
+		BC63E03F22A7BA4E0024E010 /* gold_like_coin7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC63E03822A7BA4E0024E010 /* gold_like_coin7.png */; };
+		BC63E04022A7BA4E0024E010 /* gold_like_coin3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC63E03922A7BA4E0024E010 /* gold_like_coin3.png */; };
+		BC63E04122A7BA4E0024E010 /* gold_like_coin2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC63E03A22A7BA4E0024E010 /* gold_like_coin2.png */; };
+		BC63E04222A7BA4E0024E010 /* gold_like_coin1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC63E03B22A7BA4E0024E010 /* gold_like_coin1.png */; };
+		F3AB9650C2F892F2AC46A375 /* libPods-ELFlyAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 681A23098215E36C000D31E9 /* libPods-ELFlyAnimationDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC509AD322A667D400601E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC509AB222A667D300601E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC509AB922A667D400601E2F;
+			remoteInfo = ELFlyAnimationDemo;
+		};
+		BC509ADE22A667D400601E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC509AB222A667D300601E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC509AB922A667D400601E2F;
+			remoteInfo = ELFlyAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		681A23098215E36C000D31E9 /* libPods-ELFlyAnimationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELFlyAnimationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D99D1C88A04A08F7572F5E /* Pods-ELFlyAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELFlyAnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELFlyAnimationDemo/Pods-ELFlyAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BC509ABA22A667D400601E2F /* ELFlyAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELFlyAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC509ABD22A667D400601E2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC509ABE22A667D400601E2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC509AC022A667D400601E2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC509AC122A667D400601E2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC509AC422A667D400601E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC509AC622A667D400601E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC509AC922A667D400601E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC509ACB22A667D400601E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC509ACC22A667D400601E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC509AD222A667D400601E2F /* ELFlyAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELFlyAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC509AD622A667D400601E2F /* ELFlyAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELFlyAnimationDemoTests.m; sourceTree = "<group>"; };
+		BC509AD822A667D400601E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC509ADD22A667D400601E2F /* ELFlyAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELFlyAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC509AE122A667D400601E2F /* ELFlyAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELFlyAnimationDemoUITests.m; sourceTree = "<group>"; };
+		BC509AE322A667D400601E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC509AF122A667FB00601E2F /* ELRewardAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELRewardAnimationManager.h; sourceTree = "<group>"; };
+		BC509AF222A667FB00601E2F /* ELRewardAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELRewardAnimationManager.m; sourceTree = "<group>"; };
+		BC509AF422A667FB00601E2F /* ELRewardRMBScrollAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELRewardRMBScrollAnimationView.h; sourceTree = "<group>"; };
+		BC509AF522A667FB00601E2F /* ELRewardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELRewardButton.m; sourceTree = "<group>"; };
+		BC509AF622A667FB00601E2F /* ELRewardAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELRewardAnimationView.m; sourceTree = "<group>"; };
+		BC509AF722A667FB00601E2F /* ELRewardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELRewardButton.h; sourceTree = "<group>"; };
+		BC509AF822A667FB00601E2F /* ELRewardRMBScrollAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELRewardRMBScrollAnimationView.m; sourceTree = "<group>"; };
+		BC509AF922A667FB00601E2F /* ELRewardAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELRewardAnimationView.h; sourceTree = "<group>"; };
+		BC509B0122A6680C00601E2F /* reward_888_img_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_10.png; sourceTree = "<group>"; };
+		BC509B0222A6680C00601E2F /* reward_888_img_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_11.png; sourceTree = "<group>"; };
+		BC509B0322A6680C00601E2F /* reward_888_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_1.png; sourceTree = "<group>"; };
+		BC509B0422A6680C00601E2F /* reward_888_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_0.png; sourceTree = "<group>"; };
+		BC509B0522A6680C00601E2F /* reward_888_img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_2.png; sourceTree = "<group>"; };
+		BC509B0622A6680C00601E2F /* reward_888_img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_3.png; sourceTree = "<group>"; };
+		BC509B0722A6680C00601E2F /* reward_888_img_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_7.png; sourceTree = "<group>"; };
+		BC509B0822A6680C00601E2F /* reward_888_img_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_6.png; sourceTree = "<group>"; };
+		BC509B0922A6680C00601E2F /* reward_888_img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_4.png; sourceTree = "<group>"; };
+		BC509B0A22A6680C00601E2F /* reward_888_img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_5.png; sourceTree = "<group>"; };
+		BC509B0B22A6680C00601E2F /* reward_888_img_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_8.png; sourceTree = "<group>"; };
+		BC509B0C22A6680C00601E2F /* reward_888_img_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_888_img_9.png; sourceTree = "<group>"; };
+		BC509B0D22A6680C00601E2F /* reward_888_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reward_888_data.json; sourceTree = "<group>"; };
+		BC509B0F22A6680C00601E2F /* reward_666_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reward_666_data.json; sourceTree = "<group>"; };
+		BC509B1122A6680C00601E2F /* reward_666_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_1.png; sourceTree = "<group>"; };
+		BC509B1222A6680C00601E2F /* reward_666_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_0.png; sourceTree = "<group>"; };
+		BC509B1322A6680C00601E2F /* reward_666_img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_2.png; sourceTree = "<group>"; };
+		BC509B1422A6680C00601E2F /* reward_666_img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_3.png; sourceTree = "<group>"; };
+		BC509B1522A6680C00601E2F /* reward_666_img_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_7.png; sourceTree = "<group>"; };
+		BC509B1622A6680C00601E2F /* reward_666_img_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_6.png; sourceTree = "<group>"; };
+		BC509B1722A6680C00601E2F /* reward_666_img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_4.png; sourceTree = "<group>"; };
+		BC509B1822A6680C00601E2F /* reward_666_img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_666_img_5.png; sourceTree = "<group>"; };
+		BC509B1B22A6680C00601E2F /* reward_233_img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_3.png; sourceTree = "<group>"; };
+		BC509B1C22A6680C00601E2F /* reward_233_img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_2.png; sourceTree = "<group>"; };
+		BC509B1D22A6680C00601E2F /* reward_233_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_0.png; sourceTree = "<group>"; };
+		BC509B1E22A6680C00601E2F /* reward_233_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_1.png; sourceTree = "<group>"; };
+		BC509B1F22A6680C00601E2F /* reward_233_img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_5.png; sourceTree = "<group>"; };
+		BC509B2022A6680C00601E2F /* reward_233_img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_4.png; sourceTree = "<group>"; };
+		BC509B2122A6680C00601E2F /* reward_233_img_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_6.png; sourceTree = "<group>"; };
+		BC509B2222A6680C00601E2F /* reward_233_img_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_233_img_7.png; sourceTree = "<group>"; };
+		BC509B2322A6680C00601E2F /* reward_233_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reward_233_data.json; sourceTree = "<group>"; };
+		BC509B2622A6680C00601E2F /* reward_111_img_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_10.png; sourceTree = "<group>"; };
+		BC509B2722A6680C00601E2F /* reward_111_img_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_7.png; sourceTree = "<group>"; };
+		BC509B2822A6680C00601E2F /* reward_111_img_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_6.png; sourceTree = "<group>"; };
+		BC509B2922A6680C00601E2F /* reward_111_img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_4.png; sourceTree = "<group>"; };
+		BC509B2A22A6680C00601E2F /* reward_111_img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_5.png; sourceTree = "<group>"; };
+		BC509B2B22A6680C00601E2F /* reward_111_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_1.png; sourceTree = "<group>"; };
+		BC509B2C22A6680C00601E2F /* reward_111_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_0.png; sourceTree = "<group>"; };
+		BC509B2D22A6680C00601E2F /* reward_111_img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_2.png; sourceTree = "<group>"; };
+		BC509B2E22A6680C00601E2F /* reward_111_img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_3.png; sourceTree = "<group>"; };
+		BC509B2F22A6680C00601E2F /* reward_111_img_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_8.png; sourceTree = "<group>"; };
+		BC509B3022A6680C00601E2F /* reward_111_img_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_111_img_9.png; sourceTree = "<group>"; };
+		BC509B3122A6680C00601E2F /* reward_111_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reward_111_data.json; sourceTree = "<group>"; };
+		BC509B3422A6680C00601E2F /* reward_520_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_520_img_1.png; sourceTree = "<group>"; };
+		BC509B3522A6680C00601E2F /* reward_520_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_520_img_0.png; sourceTree = "<group>"; };
+		BC509B3622A6680C00601E2F /* reward_520_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reward_520_data.json; sourceTree = "<group>"; };
+		BC509B3922A6680C00601E2F /* reward_88_img_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_7.png; sourceTree = "<group>"; };
+		BC509B3A22A6680C00601E2F /* reward_88_img_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_6.png; sourceTree = "<group>"; };
+		BC509B3B22A6680C00601E2F /* reward_88_img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_4.png; sourceTree = "<group>"; };
+		BC509B3C22A6680C00601E2F /* reward_88_img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_5.png; sourceTree = "<group>"; };
+		BC509B3D22A6680C00601E2F /* reward_88_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_1.png; sourceTree = "<group>"; };
+		BC509B3E22A6680C00601E2F /* reward_88_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_0.png; sourceTree = "<group>"; };
+		BC509B3F22A6680C00601E2F /* reward_88_img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_2.png; sourceTree = "<group>"; };
+		BC509B4022A6680C00601E2F /* reward_88_img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_3.png; sourceTree = "<group>"; };
+		BC509B4122A6680C00601E2F /* reward_88_img_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_8.png; sourceTree = "<group>"; };
+		BC509B4222A6680C00601E2F /* reward_88_img_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reward_88_img_9.png; sourceTree = "<group>"; };
+		BC509B4322A6680C00601E2F /* reward_88_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reward_88_data.json; sourceTree = "<group>"; };
+		BC509B7E22A66C8900601E2F /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		BC509B7F22A66C8900601E2F /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		BC509C5322A6722700601E2F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BC509C5422A6722700601E2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC509C5822A6722700601E2F /* LOTRenderNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRenderNode.m; sourceTree = "<group>"; };
+		BC509C5922A6722700601E2F /* LOTAnimatorNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatorNode.h; sourceTree = "<group>"; };
+		BC509C5A22A6722700601E2F /* LOTRenderNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRenderNode.h; sourceTree = "<group>"; };
+		BC509C5C22A6722700601E2F /* LOTTrimPathNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTTrimPathNode.h; sourceTree = "<group>"; };
+		BC509C5D22A6722700601E2F /* LOTTrimPathNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTTrimPathNode.m; sourceTree = "<group>"; };
+		BC509C5F22A6722700601E2F /* LOTColorInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTColorInterpolator.m; sourceTree = "<group>"; };
+		BC509C6022A6722700601E2F /* LOTPathInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPathInterpolator.m; sourceTree = "<group>"; };
+		BC509C6122A6722700601E2F /* LOTSizeInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTSizeInterpolator.h; sourceTree = "<group>"; };
+		BC509C6222A6722700601E2F /* LOTValueInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueInterpolator.h; sourceTree = "<group>"; };
+		BC509C6322A6722700601E2F /* LOTPointInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPointInterpolator.h; sourceTree = "<group>"; };
+		BC509C6422A6722700601E2F /* LOTNumberInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTNumberInterpolator.h; sourceTree = "<group>"; };
+		BC509C6522A6722700601E2F /* LOTTransformInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTTransformInterpolator.h; sourceTree = "<group>"; };
+		BC509C6622A6722700601E2F /* LOTArrayInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTArrayInterpolator.h; sourceTree = "<group>"; };
+		BC509C6722A6722700601E2F /* LOTColorInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTColorInterpolator.h; sourceTree = "<group>"; };
+		BC509C6822A6722700601E2F /* LOTSizeInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTSizeInterpolator.m; sourceTree = "<group>"; };
+		BC509C6922A6722700601E2F /* LOTPathInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPathInterpolator.h; sourceTree = "<group>"; };
+		BC509C6A22A6722700601E2F /* LOTPointInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPointInterpolator.m; sourceTree = "<group>"; };
+		BC509C6B22A6722700601E2F /* LOTValueInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTValueInterpolator.m; sourceTree = "<group>"; };
+		BC509C6C22A6722700601E2F /* LOTTransformInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTTransformInterpolator.m; sourceTree = "<group>"; };
+		BC509C6D22A6722700601E2F /* LOTArrayInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTArrayInterpolator.m; sourceTree = "<group>"; };
+		BC509C6E22A6722700601E2F /* LOTNumberInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTNumberInterpolator.m; sourceTree = "<group>"; };
+		BC509C6F22A6722700601E2F /* LOTAnimatorNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimatorNode.m; sourceTree = "<group>"; };
+		BC509C7122A6722700601E2F /* LOTPathAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPathAnimator.m; sourceTree = "<group>"; };
+		BC509C7222A6722700601E2F /* LOTPolystarAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPolystarAnimator.m; sourceTree = "<group>"; };
+		BC509C7322A6722700601E2F /* LOTPolygonAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPolygonAnimator.m; sourceTree = "<group>"; };
+		BC509C7422A6722700601E2F /* LOTRoundedRectAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRoundedRectAnimator.h; sourceTree = "<group>"; };
+		BC509C7522A6722700601E2F /* LOTCircleAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTCircleAnimator.m; sourceTree = "<group>"; };
+		BC509C7622A6722700601E2F /* LOTPolystarAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPolystarAnimator.h; sourceTree = "<group>"; };
+		BC509C7722A6722700601E2F /* LOTPathAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPathAnimator.h; sourceTree = "<group>"; };
+		BC509C7822A6722700601E2F /* LOTCircleAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCircleAnimator.h; sourceTree = "<group>"; };
+		BC509C7922A6722700601E2F /* LOTRoundedRectAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRoundedRectAnimator.m; sourceTree = "<group>"; };
+		BC509C7A22A6722700601E2F /* LOTPolygonAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPolygonAnimator.h; sourceTree = "<group>"; };
+		BC509C7C22A6722700601E2F /* LOTRenderGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRenderGroup.m; sourceTree = "<group>"; };
+		BC509C7D22A6722700601E2F /* LOTGradientFillRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTGradientFillRender.m; sourceTree = "<group>"; };
+		BC509C7E22A6722700601E2F /* LOTFillRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTFillRenderer.h; sourceTree = "<group>"; };
+		BC509C7F22A6722700601E2F /* LOTStrokeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTStrokeRenderer.h; sourceTree = "<group>"; };
+		BC509C8022A6722700601E2F /* LOTRepeaterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRepeaterRenderer.h; sourceTree = "<group>"; };
+		BC509C8122A6722700601E2F /* LOTRenderGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRenderGroup.h; sourceTree = "<group>"; };
+		BC509C8222A6722700601E2F /* LOTStrokeRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTStrokeRenderer.m; sourceTree = "<group>"; };
+		BC509C8322A6722700601E2F /* LOTFillRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTFillRenderer.m; sourceTree = "<group>"; };
+		BC509C8422A6722700601E2F /* LOTGradientFillRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTGradientFillRender.h; sourceTree = "<group>"; };
+		BC509C8522A6722700601E2F /* LOTRepeaterRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRepeaterRenderer.m; sourceTree = "<group>"; };
+		BC509C8722A6722700601E2F /* LOTMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTMask.m; sourceTree = "<group>"; };
+		BC509C8822A6722700601E2F /* LOTLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTLayer.m; sourceTree = "<group>"; };
+		BC509C8922A6722700601E2F /* LOTAssetGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAssetGroup.m; sourceTree = "<group>"; };
+		BC509C8A22A6722700601E2F /* LOTShapeRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeRectangle.h; sourceTree = "<group>"; };
+		BC509C8B22A6722700601E2F /* LOTShapeRepeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeRepeater.h; sourceTree = "<group>"; };
+		BC509C8C22A6722700601E2F /* LOTAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAsset.h; sourceTree = "<group>"; };
+		BC509C8D22A6722700601E2F /* LOTShapeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeCircle.h; sourceTree = "<group>"; };
+		BC509C8E22A6722700601E2F /* LOTLayerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTLayerGroup.m; sourceTree = "<group>"; };
+		BC509C8F22A6722700601E2F /* LOTShapeStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeStar.m; sourceTree = "<group>"; };
+		BC509C9022A6722700601E2F /* LOTShapeTrimPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeTrimPath.m; sourceTree = "<group>"; };
+		BC509C9122A6722700601E2F /* LOTShapeGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeGroup.h; sourceTree = "<group>"; };
+		BC509C9222A6722700601E2F /* LOTShapePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapePath.h; sourceTree = "<group>"; };
+		BC509C9322A6722700601E2F /* LOTShapeStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeStroke.h; sourceTree = "<group>"; };
+		BC509C9422A6722700601E2F /* LOTShapeGradientFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeGradientFill.m; sourceTree = "<group>"; };
+		BC509C9522A6722700601E2F /* LOTShapeFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeFill.h; sourceTree = "<group>"; };
+		BC509C9622A6722700601E2F /* LOTShapeTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeTransform.h; sourceTree = "<group>"; };
+		BC509C9722A6722700601E2F /* LOTAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAsset.m; sourceTree = "<group>"; };
+		BC509C9822A6722700601E2F /* LOTModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTModels.h; sourceTree = "<group>"; };
+		BC509C9922A6722700601E2F /* LOTShapeRepeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeRepeater.m; sourceTree = "<group>"; };
+		BC509C9A22A6722700601E2F /* LOTAssetGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAssetGroup.h; sourceTree = "<group>"; };
+		BC509C9B22A6722700601E2F /* LOTShapeRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeRectangle.m; sourceTree = "<group>"; };
+		BC509C9C22A6722700601E2F /* LOTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTLayer.h; sourceTree = "<group>"; };
+		BC509C9D22A6722700601E2F /* LOTMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTMask.h; sourceTree = "<group>"; };
+		BC509C9E22A6722700601E2F /* LOTShapeStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeStar.h; sourceTree = "<group>"; };
+		BC509C9F22A6722700601E2F /* LOTLayerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTLayerGroup.h; sourceTree = "<group>"; };
+		BC509CA022A6722700601E2F /* LOTShapeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeCircle.m; sourceTree = "<group>"; };
+		BC509CA122A6722700601E2F /* LOTShapePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapePath.m; sourceTree = "<group>"; };
+		BC509CA222A6722700601E2F /* LOTShapeGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeGroup.m; sourceTree = "<group>"; };
+		BC509CA322A6722700601E2F /* LOTShapeTrimPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeTrimPath.h; sourceTree = "<group>"; };
+		BC509CA422A6722700601E2F /* LOTShapeFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeFill.m; sourceTree = "<group>"; };
+		BC509CA522A6722700601E2F /* LOTShapeTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeTransform.m; sourceTree = "<group>"; };
+		BC509CA622A6722700601E2F /* LOTShapeGradientFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeGradientFill.h; sourceTree = "<group>"; };
+		BC509CA722A6722700601E2F /* LOTShapeStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeStroke.m; sourceTree = "<group>"; };
+		BC509CA922A6722700601E2F /* LOTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTHelpers.h; sourceTree = "<group>"; };
+		BC509CAA22A6722700601E2F /* LOTRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRadialGradientLayer.h; sourceTree = "<group>"; };
+		BC509CAB22A6722700601E2F /* CGGeometry+LOTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+LOTAdditions.m"; sourceTree = "<group>"; };
+		BC509CAC22A6722700601E2F /* LOTBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTBezierPath.m; sourceTree = "<group>"; };
+		BC509CAD22A6722700601E2F /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		BC509CAE22A6722700601E2F /* LOTRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRadialGradientLayer.m; sourceTree = "<group>"; };
+		BC509CAF22A6722700601E2F /* CGGeometry+LOTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+LOTAdditions.h"; sourceTree = "<group>"; };
+		BC509CB022A6722700601E2F /* LOTBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTBezierPath.h; sourceTree = "<group>"; };
+		BC509CB122A6722700601E2F /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		BC509CB322A6722700601E2F /* UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
+		BC509CB422A6722700601E2F /* UIBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBezierPath.m; sourceTree = "<group>"; };
+		BC509CB522A6722700601E2F /* CALayer+Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Compat.h"; sourceTree = "<group>"; };
+		BC509CB622A6722700601E2F /* NSValue+Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Compat.h"; sourceTree = "<group>"; };
+		BC509CB722A6722700601E2F /* UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor.m; sourceTree = "<group>"; };
+		BC509CB822A6722700601E2F /* LOTPlatformCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPlatformCompat.h; sourceTree = "<group>"; };
+		BC509CB922A6722700601E2F /* UIBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBezierPath.h; sourceTree = "<group>"; };
+		BC509CBA22A6722700601E2F /* NSValue+Compat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+Compat.m"; sourceTree = "<group>"; };
+		BC509CBB22A6722700601E2F /* CALayer+Compat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Compat.m"; sourceTree = "<group>"; };
+		BC509CBD22A6722700601E2F /* LOTAnimationCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationCache.m; sourceTree = "<group>"; };
+		BC509CBE22A6722700601E2F /* LOTComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTComposition.m; sourceTree = "<group>"; };
+		BC509CBF22A6722700601E2F /* LOTValueCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTValueCallback.m; sourceTree = "<group>"; };
+		BC509CC022A6722700601E2F /* LOTBlockCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTBlockCallback.m; sourceTree = "<group>"; };
+		BC509CC122A6722700601E2F /* LOTAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationView.m; sourceTree = "<group>"; };
+		BC509CC222A6722700601E2F /* LOTAnimationTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationTransitionController.m; sourceTree = "<group>"; };
+		BC509CC322A6722700601E2F /* LOTAnimationView_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView_Internal.h; sourceTree = "<group>"; };
+		BC509CC422A6722700601E2F /* LOTKeypath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTKeypath.m; sourceTree = "<group>"; };
+		BC509CC522A6722700601E2F /* LOTCacheProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTCacheProvider.m; sourceTree = "<group>"; };
+		BC509CC622A6722700601E2F /* LOTAnimatedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimatedControl.m; sourceTree = "<group>"; };
+		BC509CC722A6722700601E2F /* LOTInterpolatorCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTInterpolatorCallback.m; sourceTree = "<group>"; };
+		BC509CC822A6722700601E2F /* LOTAnimatedSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimatedSwitch.m; sourceTree = "<group>"; };
+		BC509CCA22A6722700601E2F /* LOTKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTKeyframe.m; sourceTree = "<group>"; };
+		BC509CCB22A6722700601E2F /* LOTBezierData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTBezierData.m; sourceTree = "<group>"; };
+		BC509CCC22A6722700601E2F /* LOTKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTKeyframe.h; sourceTree = "<group>"; };
+		BC509CCD22A6722700601E2F /* LOTBezierData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTBezierData.h; sourceTree = "<group>"; };
+		BC509CCF22A6722700601E2F /* LOTLayerContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTLayerContainer.m; sourceTree = "<group>"; };
+		BC509CD022A6722700601E2F /* LOTCompositionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCompositionContainer.h; sourceTree = "<group>"; };
+		BC509CD122A6722700601E2F /* LOTMaskContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTMaskContainer.h; sourceTree = "<group>"; };
+		BC509CD222A6722700601E2F /* LOTLayerContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTLayerContainer.h; sourceTree = "<group>"; };
+		BC509CD322A6722700601E2F /* LOTCompositionContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTCompositionContainer.m; sourceTree = "<group>"; };
+		BC509CD422A6722700601E2F /* LOTMaskContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTMaskContainer.m; sourceTree = "<group>"; };
+		BC509CD622A6722700601E2F /* LOTValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueDelegate.h; sourceTree = "<group>"; };
+		BC509CD722A6722700601E2F /* LOTAnimatedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedControl.h; sourceTree = "<group>"; };
+		BC509CD822A6722700601E2F /* LOTCacheProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCacheProvider.h; sourceTree = "<group>"; };
+		BC509CD922A6722700601E2F /* LOTKeypath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTKeypath.h; sourceTree = "<group>"; };
+		BC509CDA22A6722700601E2F /* LOTInterpolatorCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTInterpolatorCallback.h; sourceTree = "<group>"; };
+		BC509CDB22A6722700601E2F /* LOTAnimatedSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedSwitch.h; sourceTree = "<group>"; };
+		BC509CDC22A6722700601E2F /* LOTAnimationCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationCache.h; sourceTree = "<group>"; };
+		BC509CDD22A6722700601E2F /* Lottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lottie.h; sourceTree = "<group>"; };
+		BC509CDE22A6722700601E2F /* LOTComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTComposition.h; sourceTree = "<group>"; };
+		BC509CDF22A6722700601E2F /* LOTAnimationTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationTransitionController.h; sourceTree = "<group>"; };
+		BC509CE022A6722700601E2F /* LOTAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView.h; sourceTree = "<group>"; };
+		BC509CE122A6722700601E2F /* LOTAnimationView_Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView_Compat.h; sourceTree = "<group>"; };
+		BC509CE222A6722700601E2F /* LOTValueCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueCallback.h; sourceTree = "<group>"; };
+		BC509CE322A6722700601E2F /* LOTBlockCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTBlockCallback.h; sourceTree = "<group>"; };
+		BC63E03122A7B2550024E010 /* ELBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELBasic.h; sourceTree = "<group>"; };
+		BC63E03222A7B2550024E010 /* ELBasic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELBasic.m; sourceTree = "<group>"; };
+		BC63E03522A7BA4E0024E010 /* gold_like_coin5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_like_coin5.png; sourceTree = "<group>"; };
+		BC63E03622A7BA4E0024E010 /* gold_like_coin4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_like_coin4.png; sourceTree = "<group>"; };
+		BC63E03722A7BA4E0024E010 /* gold_like_coin6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_like_coin6.png; sourceTree = "<group>"; };
+		BC63E03822A7BA4E0024E010 /* gold_like_coin7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_like_coin7.png; sourceTree = "<group>"; };
+		BC63E03922A7BA4E0024E010 /* gold_like_coin3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_like_coin3.png; sourceTree = "<group>"; };
+		BC63E03A22A7BA4E0024E010 /* gold_like_coin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_like_coin2.png; sourceTree = "<group>"; };
+		BC63E03B22A7BA4E0024E010 /* gold_like_coin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_like_coin1.png; sourceTree = "<group>"; };
+		FE2F8C6D18CB1CD8EB49EC55 /* Pods-ELFlyAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELFlyAnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELFlyAnimationDemo/Pods-ELFlyAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC509AB722A667D400601E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AB9650C2F892F2AC46A375 /* libPods-ELFlyAnimationDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC509ACF22A667D400601E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC509ADA22A667D400601E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEA5EB8D0FBDD8FC8B5179D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70D99D1C88A04A08F7572F5E /* Pods-ELFlyAnimationDemo.debug.xcconfig */,
+				FE2F8C6D18CB1CD8EB49EC55 /* Pods-ELFlyAnimationDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F9DE4A4474B16FA5F1C93E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				681A23098215E36C000D31E9 /* libPods-ELFlyAnimationDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC509AB122A667D300601E2F = {
+			isa = PBXGroup;
+			children = (
+				BC509ABC22A667D400601E2F /* ELFlyAnimationDemo */,
+				BC509AD522A667D400601E2F /* ELFlyAnimationDemoTests */,
+				BC509AE022A667D400601E2F /* ELFlyAnimationDemoUITests */,
+				BC509ABB22A667D400601E2F /* Products */,
+				0BEA5EB8D0FBDD8FC8B5179D /* Pods */,
+				1F9DE4A4474B16FA5F1C93E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC509ABB22A667D400601E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC509ABA22A667D400601E2F /* ELFlyAnimationDemo.app */,
+				BC509AD222A667D400601E2F /* ELFlyAnimationDemoTests.xctest */,
+				BC509ADD22A667D400601E2F /* ELFlyAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC509ABC22A667D400601E2F /* ELFlyAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC509ABD22A667D400601E2F /* AppDelegate.h */,
+				BC509ABE22A667D400601E2F /* AppDelegate.m */,
+				BC509AC022A667D400601E2F /* ViewController.h */,
+				BC509AC122A667D400601E2F /* ViewController.m */,
+				BC63E03122A7B2550024E010 /* ELBasic.h */,
+				BC63E03222A7B2550024E010 /* ELBasic.m */,
+				BC509AEF22A667FB00601E2F /* ELRewardAnimation */,
+				BC509AC322A667D400601E2F /* Main.storyboard */,
+				BC509AC622A667D400601E2F /* Assets.xcassets */,
+				BC509AC822A667D400601E2F /* LaunchScreen.storyboard */,
+				BC509B7D22A66C8900601E2F /* 3rd */,
+				BC509AFE22A6680C00601E2F /* Resource */,
+				BC509ACB22A667D400601E2F /* Info.plist */,
+				BC509ACC22A667D400601E2F /* main.m */,
+			);
+			path = ELFlyAnimationDemo;
+			sourceTree = "<group>";
+		};
+		BC509AD522A667D400601E2F /* ELFlyAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC509AD622A667D400601E2F /* ELFlyAnimationDemoTests.m */,
+				BC509AD822A667D400601E2F /* Info.plist */,
+			);
+			path = ELFlyAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		BC509AE022A667D400601E2F /* ELFlyAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC509AE122A667D400601E2F /* ELFlyAnimationDemoUITests.m */,
+				BC509AE322A667D400601E2F /* Info.plist */,
+			);
+			path = ELFlyAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		BC509AEF22A667FB00601E2F /* ELRewardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BC509AF022A667FB00601E2F /* Model */,
+				BC509AF322A667FB00601E2F /* View */,
+			);
+			path = ELRewardAnimation;
+			sourceTree = "<group>";
+		};
+		BC509AF022A667FB00601E2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC509AF122A667FB00601E2F /* ELRewardAnimationManager.h */,
+				BC509AF222A667FB00601E2F /* ELRewardAnimationManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC509AF322A667FB00601E2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC509AF922A667FB00601E2F /* ELRewardAnimationView.h */,
+				BC509AF622A667FB00601E2F /* ELRewardAnimationView.m */,
+				BC509AF722A667FB00601E2F /* ELRewardButton.h */,
+				BC509AF522A667FB00601E2F /* ELRewardButton.m */,
+				BC509AF422A667FB00601E2F /* ELRewardRMBScrollAnimationView.h */,
+				BC509AF822A667FB00601E2F /* ELRewardRMBScrollAnimationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC509AFE22A6680C00601E2F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BC63E03422A7BA4E0024E010 /* AnimationPics */,
+				BC509AFF22A6680C00601E2F /* 888 */,
+				BC509B0E22A6680C00601E2F /* 666 */,
+				BC509B1922A6680C00601E2F /* 233 */,
+				BC509B2422A6680C00601E2F /* 111 */,
+				BC509B3222A6680C00601E2F /* 520 */,
+				BC63E03A22A7BA4E0024E010 /* gold_like_coin2.png */,
+				BC509B3722A6680C00601E2F /* 088 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BC509AFF22A6680C00601E2F /* 888 */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B0022A6680C00601E2F /* images */,
+				BC509B0D22A6680C00601E2F /* reward_888_data.json */,
+			);
+			path = 888;
+			sourceTree = "<group>";
+		};
+		BC509B0022A6680C00601E2F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B0122A6680C00601E2F /* reward_888_img_10.png */,
+				BC509B0222A6680C00601E2F /* reward_888_img_11.png */,
+				BC509B0322A6680C00601E2F /* reward_888_img_1.png */,
+				BC509B0422A6680C00601E2F /* reward_888_img_0.png */,
+				BC509B0522A6680C00601E2F /* reward_888_img_2.png */,
+				BC509B0622A6680C00601E2F /* reward_888_img_3.png */,
+				BC509B0722A6680C00601E2F /* reward_888_img_7.png */,
+				BC509B0822A6680C00601E2F /* reward_888_img_6.png */,
+				BC509B0922A6680C00601E2F /* reward_888_img_4.png */,
+				BC509B0A22A6680C00601E2F /* reward_888_img_5.png */,
+				BC509B0B22A6680C00601E2F /* reward_888_img_8.png */,
+				BC509B0C22A6680C00601E2F /* reward_888_img_9.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BC509B0E22A6680C00601E2F /* 666 */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B0F22A6680C00601E2F /* reward_666_data.json */,
+				BC509B1022A6680C00601E2F /* images */,
+			);
+			path = 666;
+			sourceTree = "<group>";
+		};
+		BC509B1022A6680C00601E2F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B1122A6680C00601E2F /* reward_666_img_1.png */,
+				BC509B1222A6680C00601E2F /* reward_666_img_0.png */,
+				BC509B1322A6680C00601E2F /* reward_666_img_2.png */,
+				BC509B1422A6680C00601E2F /* reward_666_img_3.png */,
+				BC509B1522A6680C00601E2F /* reward_666_img_7.png */,
+				BC509B1622A6680C00601E2F /* reward_666_img_6.png */,
+				BC509B1722A6680C00601E2F /* reward_666_img_4.png */,
+				BC509B1822A6680C00601E2F /* reward_666_img_5.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BC509B1922A6680C00601E2F /* 233 */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B1A22A6680C00601E2F /* images */,
+				BC509B2322A6680C00601E2F /* reward_233_data.json */,
+			);
+			path = 233;
+			sourceTree = "<group>";
+		};
+		BC509B1A22A6680C00601E2F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B1B22A6680C00601E2F /* reward_233_img_3.png */,
+				BC509B1C22A6680C00601E2F /* reward_233_img_2.png */,
+				BC509B1D22A6680C00601E2F /* reward_233_img_0.png */,
+				BC509B1E22A6680C00601E2F /* reward_233_img_1.png */,
+				BC509B1F22A6680C00601E2F /* reward_233_img_5.png */,
+				BC509B2022A6680C00601E2F /* reward_233_img_4.png */,
+				BC509B2122A6680C00601E2F /* reward_233_img_6.png */,
+				BC509B2222A6680C00601E2F /* reward_233_img_7.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BC509B2422A6680C00601E2F /* 111 */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B2522A6680C00601E2F /* images */,
+				BC509B3122A6680C00601E2F /* reward_111_data.json */,
+			);
+			path = 111;
+			sourceTree = "<group>";
+		};
+		BC509B2522A6680C00601E2F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B2622A6680C00601E2F /* reward_111_img_10.png */,
+				BC509B2722A6680C00601E2F /* reward_111_img_7.png */,
+				BC509B2822A6680C00601E2F /* reward_111_img_6.png */,
+				BC509B2922A6680C00601E2F /* reward_111_img_4.png */,
+				BC509B2A22A6680C00601E2F /* reward_111_img_5.png */,
+				BC509B2B22A6680C00601E2F /* reward_111_img_1.png */,
+				BC509B2C22A6680C00601E2F /* reward_111_img_0.png */,
+				BC509B2D22A6680C00601E2F /* reward_111_img_2.png */,
+				BC509B2E22A6680C00601E2F /* reward_111_img_3.png */,
+				BC509B2F22A6680C00601E2F /* reward_111_img_8.png */,
+				BC509B3022A6680C00601E2F /* reward_111_img_9.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BC509B3222A6680C00601E2F /* 520 */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B3322A6680C00601E2F /* images */,
+				BC509B3622A6680C00601E2F /* reward_520_data.json */,
+			);
+			path = 520;
+			sourceTree = "<group>";
+		};
+		BC509B3322A6680C00601E2F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B3422A6680C00601E2F /* reward_520_img_1.png */,
+				BC509B3522A6680C00601E2F /* reward_520_img_0.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BC509B3722A6680C00601E2F /* 088 */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B3822A6680C00601E2F /* images */,
+				BC509B4322A6680C00601E2F /* reward_88_data.json */,
+			);
+			path = 088;
+			sourceTree = "<group>";
+		};
+		BC509B3822A6680C00601E2F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC509B3922A6680C00601E2F /* reward_88_img_7.png */,
+				BC509B3A22A6680C00601E2F /* reward_88_img_6.png */,
+				BC509B3B22A6680C00601E2F /* reward_88_img_4.png */,
+				BC509B3C22A6680C00601E2F /* reward_88_img_5.png */,
+				BC509B3D22A6680C00601E2F /* reward_88_img_1.png */,
+				BC509B3E22A6680C00601E2F /* reward_88_img_0.png */,
+				BC509B3F22A6680C00601E2F /* reward_88_img_2.png */,
+				BC509B4022A6680C00601E2F /* reward_88_img_3.png */,
+				BC509B4122A6680C00601E2F /* reward_88_img_8.png */,
+				BC509B4222A6680C00601E2F /* reward_88_img_9.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BC509B7D22A66C8900601E2F /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C5222A6722700601E2F /* lottie-ios */,
+				BC509B7E22A66C8900601E2F /* UIView+Custom.h */,
+				BC509B7F22A66C8900601E2F /* UIView+Custom.m */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		BC509C5222A6722700601E2F /* lottie-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C5322A6722700601E2F /* LICENSE */,
+				BC509C5422A6722700601E2F /* README.md */,
+				BC509C5522A6722700601E2F /* lottie-ios */,
+			);
+			path = "lottie-ios";
+			sourceTree = "<group>";
+		};
+		BC509C5522A6722700601E2F /* lottie-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C5622A6722700601E2F /* Classes */,
+			);
+			path = "lottie-ios";
+			sourceTree = "<group>";
+		};
+		BC509C5622A6722700601E2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C5722A6722700601E2F /* RenderSystem */,
+				BC509C8622A6722700601E2F /* Models */,
+				BC509CA822A6722700601E2F /* Extensions */,
+				BC509CB222A6722700601E2F /* MacCompatability */,
+				BC509CBC22A6722700601E2F /* Private */,
+				BC509CC922A6722700601E2F /* AnimatableProperties */,
+				BC509CCE22A6722700601E2F /* AnimatableLayers */,
+				BC509CD522A6722700601E2F /* PublicHeaders */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC509C5722A6722700601E2F /* RenderSystem */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C5822A6722700601E2F /* LOTRenderNode.m */,
+				BC509C5922A6722700601E2F /* LOTAnimatorNode.h */,
+				BC509C5A22A6722700601E2F /* LOTRenderNode.h */,
+				BC509C5B22A6722700601E2F /* ManipulatorNodes */,
+				BC509C5E22A6722700601E2F /* InterpolatorNodes */,
+				BC509C6F22A6722700601E2F /* LOTAnimatorNode.m */,
+				BC509C7022A6722700601E2F /* AnimatorNodes */,
+				BC509C7B22A6722700601E2F /* RenderNodes */,
+			);
+			path = RenderSystem;
+			sourceTree = "<group>";
+		};
+		BC509C5B22A6722700601E2F /* ManipulatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C5C22A6722700601E2F /* LOTTrimPathNode.h */,
+				BC509C5D22A6722700601E2F /* LOTTrimPathNode.m */,
+			);
+			path = ManipulatorNodes;
+			sourceTree = "<group>";
+		};
+		BC509C5E22A6722700601E2F /* InterpolatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C5F22A6722700601E2F /* LOTColorInterpolator.m */,
+				BC509C6022A6722700601E2F /* LOTPathInterpolator.m */,
+				BC509C6122A6722700601E2F /* LOTSizeInterpolator.h */,
+				BC509C6222A6722700601E2F /* LOTValueInterpolator.h */,
+				BC509C6322A6722700601E2F /* LOTPointInterpolator.h */,
+				BC509C6422A6722700601E2F /* LOTNumberInterpolator.h */,
+				BC509C6522A6722700601E2F /* LOTTransformInterpolator.h */,
+				BC509C6622A6722700601E2F /* LOTArrayInterpolator.h */,
+				BC509C6722A6722700601E2F /* LOTColorInterpolator.h */,
+				BC509C6822A6722700601E2F /* LOTSizeInterpolator.m */,
+				BC509C6922A6722700601E2F /* LOTPathInterpolator.h */,
+				BC509C6A22A6722700601E2F /* LOTPointInterpolator.m */,
+				BC509C6B22A6722700601E2F /* LOTValueInterpolator.m */,
+				BC509C6C22A6722700601E2F /* LOTTransformInterpolator.m */,
+				BC509C6D22A6722700601E2F /* LOTArrayInterpolator.m */,
+				BC509C6E22A6722700601E2F /* LOTNumberInterpolator.m */,
+			);
+			path = InterpolatorNodes;
+			sourceTree = "<group>";
+		};
+		BC509C7022A6722700601E2F /* AnimatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C7122A6722700601E2F /* LOTPathAnimator.m */,
+				BC509C7222A6722700601E2F /* LOTPolystarAnimator.m */,
+				BC509C7322A6722700601E2F /* LOTPolygonAnimator.m */,
+				BC509C7422A6722700601E2F /* LOTRoundedRectAnimator.h */,
+				BC509C7522A6722700601E2F /* LOTCircleAnimator.m */,
+				BC509C7622A6722700601E2F /* LOTPolystarAnimator.h */,
+				BC509C7722A6722700601E2F /* LOTPathAnimator.h */,
+				BC509C7822A6722700601E2F /* LOTCircleAnimator.h */,
+				BC509C7922A6722700601E2F /* LOTRoundedRectAnimator.m */,
+				BC509C7A22A6722700601E2F /* LOTPolygonAnimator.h */,
+			);
+			path = AnimatorNodes;
+			sourceTree = "<group>";
+		};
+		BC509C7B22A6722700601E2F /* RenderNodes */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C7C22A6722700601E2F /* LOTRenderGroup.m */,
+				BC509C7D22A6722700601E2F /* LOTGradientFillRender.m */,
+				BC509C7E22A6722700601E2F /* LOTFillRenderer.h */,
+				BC509C7F22A6722700601E2F /* LOTStrokeRenderer.h */,
+				BC509C8022A6722700601E2F /* LOTRepeaterRenderer.h */,
+				BC509C8122A6722700601E2F /* LOTRenderGroup.h */,
+				BC509C8222A6722700601E2F /* LOTStrokeRenderer.m */,
+				BC509C8322A6722700601E2F /* LOTFillRenderer.m */,
+				BC509C8422A6722700601E2F /* LOTGradientFillRender.h */,
+				BC509C8522A6722700601E2F /* LOTRepeaterRenderer.m */,
+			);
+			path = RenderNodes;
+			sourceTree = "<group>";
+		};
+		BC509C8622A6722700601E2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC509C8722A6722700601E2F /* LOTMask.m */,
+				BC509C8822A6722700601E2F /* LOTLayer.m */,
+				BC509C8922A6722700601E2F /* LOTAssetGroup.m */,
+				BC509C8A22A6722700601E2F /* LOTShapeRectangle.h */,
+				BC509C8B22A6722700601E2F /* LOTShapeRepeater.h */,
+				BC509C8C22A6722700601E2F /* LOTAsset.h */,
+				BC509C8D22A6722700601E2F /* LOTShapeCircle.h */,
+				BC509C8E22A6722700601E2F /* LOTLayerGroup.m */,
+				BC509C8F22A6722700601E2F /* LOTShapeStar.m */,
+				BC509C9022A6722700601E2F /* LOTShapeTrimPath.m */,
+				BC509C9122A6722700601E2F /* LOTShapeGroup.h */,
+				BC509C9222A6722700601E2F /* LOTShapePath.h */,
+				BC509C9322A6722700601E2F /* LOTShapeStroke.h */,
+				BC509C9422A6722700601E2F /* LOTShapeGradientFill.m */,
+				BC509C9522A6722700601E2F /* LOTShapeFill.h */,
+				BC509C9622A6722700601E2F /* LOTShapeTransform.h */,
+				BC509C9722A6722700601E2F /* LOTAsset.m */,
+				BC509C9822A6722700601E2F /* LOTModels.h */,
+				BC509C9922A6722700601E2F /* LOTShapeRepeater.m */,
+				BC509C9A22A6722700601E2F /* LOTAssetGroup.h */,
+				BC509C9B22A6722700601E2F /* LOTShapeRectangle.m */,
+				BC509C9C22A6722700601E2F /* LOTLayer.h */,
+				BC509C9D22A6722700601E2F /* LOTMask.h */,
+				BC509C9E22A6722700601E2F /* LOTShapeStar.h */,
+				BC509C9F22A6722700601E2F /* LOTLayerGroup.h */,
+				BC509CA022A6722700601E2F /* LOTShapeCircle.m */,
+				BC509CA122A6722700601E2F /* LOTShapePath.m */,
+				BC509CA222A6722700601E2F /* LOTShapeGroup.m */,
+				BC509CA322A6722700601E2F /* LOTShapeTrimPath.h */,
+				BC509CA422A6722700601E2F /* LOTShapeFill.m */,
+				BC509CA522A6722700601E2F /* LOTShapeTransform.m */,
+				BC509CA622A6722700601E2F /* LOTShapeGradientFill.h */,
+				BC509CA722A6722700601E2F /* LOTShapeStroke.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC509CA822A6722700601E2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC509CA922A6722700601E2F /* LOTHelpers.h */,
+				BC509CAA22A6722700601E2F /* LOTRadialGradientLayer.h */,
+				BC509CAB22A6722700601E2F /* CGGeometry+LOTAdditions.m */,
+				BC509CAC22A6722700601E2F /* LOTBezierPath.m */,
+				BC509CAD22A6722700601E2F /* UIColor+Expanded.h */,
+				BC509CAE22A6722700601E2F /* LOTRadialGradientLayer.m */,
+				BC509CAF22A6722700601E2F /* CGGeometry+LOTAdditions.h */,
+				BC509CB022A6722700601E2F /* LOTBezierPath.h */,
+				BC509CB122A6722700601E2F /* UIColor+Expanded.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC509CB222A6722700601E2F /* MacCompatability */ = {
+			isa = PBXGroup;
+			children = (
+				BC509CB322A6722700601E2F /* UIColor.h */,
+				BC509CB422A6722700601E2F /* UIBezierPath.m */,
+				BC509CB522A6722700601E2F /* CALayer+Compat.h */,
+				BC509CB622A6722700601E2F /* NSValue+Compat.h */,
+				BC509CB722A6722700601E2F /* UIColor.m */,
+				BC509CB822A6722700601E2F /* LOTPlatformCompat.h */,
+				BC509CB922A6722700601E2F /* UIBezierPath.h */,
+				BC509CBA22A6722700601E2F /* NSValue+Compat.m */,
+				BC509CBB22A6722700601E2F /* CALayer+Compat.m */,
+			);
+			path = MacCompatability;
+			sourceTree = "<group>";
+		};
+		BC509CBC22A6722700601E2F /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				BC509CBD22A6722700601E2F /* LOTAnimationCache.m */,
+				BC509CBE22A6722700601E2F /* LOTComposition.m */,
+				BC509CBF22A6722700601E2F /* LOTValueCallback.m */,
+				BC509CC022A6722700601E2F /* LOTBlockCallback.m */,
+				BC509CC122A6722700601E2F /* LOTAnimationView.m */,
+				BC509CC222A6722700601E2F /* LOTAnimationTransitionController.m */,
+				BC509CC322A6722700601E2F /* LOTAnimationView_Internal.h */,
+				BC509CC422A6722700601E2F /* LOTKeypath.m */,
+				BC509CC522A6722700601E2F /* LOTCacheProvider.m */,
+				BC509CC622A6722700601E2F /* LOTAnimatedControl.m */,
+				BC509CC722A6722700601E2F /* LOTInterpolatorCallback.m */,
+				BC509CC822A6722700601E2F /* LOTAnimatedSwitch.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		BC509CC922A6722700601E2F /* AnimatableProperties */ = {
+			isa = PBXGroup;
+			children = (
+				BC509CCA22A6722700601E2F /* LOTKeyframe.m */,
+				BC509CCB22A6722700601E2F /* LOTBezierData.m */,
+				BC509CCC22A6722700601E2F /* LOTKeyframe.h */,
+				BC509CCD22A6722700601E2F /* LOTBezierData.h */,
+			);
+			path = AnimatableProperties;
+			sourceTree = "<group>";
+		};
+		BC509CCE22A6722700601E2F /* AnimatableLayers */ = {
+			isa = PBXGroup;
+			children = (
+				BC509CCF22A6722700601E2F /* LOTLayerContainer.m */,
+				BC509CD022A6722700601E2F /* LOTCompositionContainer.h */,
+				BC509CD122A6722700601E2F /* LOTMaskContainer.h */,
+				BC509CD222A6722700601E2F /* LOTLayerContainer.h */,
+				BC509CD322A6722700601E2F /* LOTCompositionContainer.m */,
+				BC509CD422A6722700601E2F /* LOTMaskContainer.m */,
+			);
+			path = AnimatableLayers;
+			sourceTree = "<group>";
+		};
+		BC509CD522A6722700601E2F /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				BC509CD622A6722700601E2F /* LOTValueDelegate.h */,
+				BC509CD722A6722700601E2F /* LOTAnimatedControl.h */,
+				BC509CD822A6722700601E2F /* LOTCacheProvider.h */,
+				BC509CD922A6722700601E2F /* LOTKeypath.h */,
+				BC509CDA22A6722700601E2F /* LOTInterpolatorCallback.h */,
+				BC509CDB22A6722700601E2F /* LOTAnimatedSwitch.h */,
+				BC509CDC22A6722700601E2F /* LOTAnimationCache.h */,
+				BC509CDD22A6722700601E2F /* Lottie.h */,
+				BC509CDE22A6722700601E2F /* LOTComposition.h */,
+				BC509CDF22A6722700601E2F /* LOTAnimationTransitionController.h */,
+				BC509CE022A6722700601E2F /* LOTAnimationView.h */,
+				BC509CE122A6722700601E2F /* LOTAnimationView_Compat.h */,
+				BC509CE222A6722700601E2F /* LOTValueCallback.h */,
+				BC509CE322A6722700601E2F /* LOTBlockCallback.h */,
+			);
+			path = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		BC63E03422A7BA4E0024E010 /* AnimationPics */ = {
+			isa = PBXGroup;
+			children = (
+				BC63E03522A7BA4E0024E010 /* gold_like_coin5.png */,
+				BC63E03622A7BA4E0024E010 /* gold_like_coin4.png */,
+				BC63E03722A7BA4E0024E010 /* gold_like_coin6.png */,
+				BC63E03822A7BA4E0024E010 /* gold_like_coin7.png */,
+				BC63E03922A7BA4E0024E010 /* gold_like_coin3.png */,
+				BC63E03B22A7BA4E0024E010 /* gold_like_coin1.png */,
+			);
+			path = AnimationPics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC509AB922A667D400601E2F /* ELFlyAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC509AE622A667D400601E2F /* Build configuration list for PBXNativeTarget "ELFlyAnimationDemo" */;
+			buildPhases = (
+				E3B0F02801CC016DA46EDFB7 /* [CP] Check Pods Manifest.lock */,
+				BC509AB622A667D400601E2F /* Sources */,
+				BC509AB722A667D400601E2F /* Frameworks */,
+				BC509AB822A667D400601E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELFlyAnimationDemo;
+			productName = ELFlyAnimationDemo;
+			productReference = BC509ABA22A667D400601E2F /* ELFlyAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC509AD122A667D400601E2F /* ELFlyAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC509AE922A667D400601E2F /* Build configuration list for PBXNativeTarget "ELFlyAnimationDemoTests" */;
+			buildPhases = (
+				BC509ACE22A667D400601E2F /* Sources */,
+				BC509ACF22A667D400601E2F /* Frameworks */,
+				BC509AD022A667D400601E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC509AD422A667D400601E2F /* PBXTargetDependency */,
+			);
+			name = ELFlyAnimationDemoTests;
+			productName = ELFlyAnimationDemoTests;
+			productReference = BC509AD222A667D400601E2F /* ELFlyAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC509ADC22A667D400601E2F /* ELFlyAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC509AEC22A667D400601E2F /* Build configuration list for PBXNativeTarget "ELFlyAnimationDemoUITests" */;
+			buildPhases = (
+				BC509AD922A667D400601E2F /* Sources */,
+				BC509ADA22A667D400601E2F /* Frameworks */,
+				BC509ADB22A667D400601E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC509ADF22A667D400601E2F /* PBXTargetDependency */,
+			);
+			name = ELFlyAnimationDemoUITests;
+			productName = ELFlyAnimationDemoUITests;
+			productReference = BC509ADD22A667D400601E2F /* ELFlyAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC509AB222A667D300601E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ElegantLiar;
+				TargetAttributes = {
+					BC509AB922A667D400601E2F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BC509AD122A667D400601E2F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BC509AB922A667D400601E2F;
+					};
+					BC509ADC22A667D400601E2F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BC509AB922A667D400601E2F;
+					};
+				};
+			};
+			buildConfigurationList = BC509AB522A667D300601E2F /* Build configuration list for PBXProject "ELFlyAnimationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC509AB122A667D300601E2F;
+			productRefGroup = BC509ABB22A667D400601E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC509AB922A667D400601E2F /* ELFlyAnimationDemo */,
+				BC509AD122A667D400601E2F /* ELFlyAnimationDemoTests */,
+				BC509ADC22A667D400601E2F /* ELFlyAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC509AB822A667D400601E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC509B4822A6680C00601E2F /* reward_888_img_2.png in Resources */,
+				BC509B5022A6680C00601E2F /* reward_888_data.json in Resources */,
+				BC509B7922A6680C00601E2F /* reward_88_img_3.png in Resources */,
+				BC509B4422A6680C00601E2F /* reward_888_img_10.png in Resources */,
+				BC509CE522A6722800601E2F /* README.md in Resources */,
+				BC509B6B22A6680C00601E2F /* reward_111_img_3.png in Resources */,
+				BC509B6322A6680C00601E2F /* reward_111_img_10.png in Resources */,
+				BC509B7422A6680C00601E2F /* reward_88_img_4.png in Resources */,
+				BC63E04022A7BA4E0024E010 /* gold_like_coin3.png in Resources */,
+				BC509B5222A6680C00601E2F /* reward_666_img_1.png in Resources */,
+				BC63E03F22A7BA4E0024E010 /* gold_like_coin7.png in Resources */,
+				BC509B4C22A6680C00601E2F /* reward_888_img_4.png in Resources */,
+				BC509B4922A6680C00601E2F /* reward_888_img_3.png in Resources */,
+				BC509B7122A6680C00601E2F /* reward_520_data.json in Resources */,
+				BC509B4B22A6680C00601E2F /* reward_888_img_6.png in Resources */,
+				BC509B4F22A6680C00601E2F /* reward_888_img_9.png in Resources */,
+				BC509ACA22A667D400601E2F /* LaunchScreen.storyboard in Resources */,
+				BC509B4E22A6680C00601E2F /* reward_888_img_8.png in Resources */,
+				BC63E04222A7BA4E0024E010 /* gold_like_coin1.png in Resources */,
+				BC509B6122A6680C00601E2F /* reward_233_img_7.png in Resources */,
+				BC509B7822A6680C00601E2F /* reward_88_img_2.png in Resources */,
+				BC509B7322A6680C00601E2F /* reward_88_img_6.png in Resources */,
+				BC509B7022A6680C00601E2F /* reward_520_img_0.png in Resources */,
+				BC509B5122A6680C00601E2F /* reward_666_data.json in Resources */,
+				BC509B7222A6680C00601E2F /* reward_88_img_7.png in Resources */,
+				BC509B4722A6680C00601E2F /* reward_888_img_0.png in Resources */,
+				BC509B7622A6680C00601E2F /* reward_88_img_1.png in Resources */,
+				BC509B7A22A6680C00601E2F /* reward_88_img_8.png in Resources */,
+				BC509CE422A6722800601E2F /* LICENSE in Resources */,
+				BC509B5822A6680C00601E2F /* reward_666_img_4.png in Resources */,
+				BC509B5B22A6680C00601E2F /* reward_233_img_2.png in Resources */,
+				BC63E03E22A7BA4E0024E010 /* gold_like_coin6.png in Resources */,
+				BC509B5A22A6680C00601E2F /* reward_233_img_3.png in Resources */,
+				BC509B4A22A6680C00601E2F /* reward_888_img_7.png in Resources */,
+				BC509B5D22A6680C00601E2F /* reward_233_img_1.png in Resources */,
+				BC509B6622A6680C00601E2F /* reward_111_img_4.png in Resources */,
+				BC509AC722A667D400601E2F /* Assets.xcassets in Resources */,
+				BC509B5422A6680C00601E2F /* reward_666_img_2.png in Resources */,
+				BC509B5E22A6680C00601E2F /* reward_233_img_5.png in Resources */,
+				BC509B6D22A6680C00601E2F /* reward_111_img_9.png in Resources */,
+				BC63E03C22A7BA4E0024E010 /* gold_like_coin5.png in Resources */,
+				BC509B6022A6680C00601E2F /* reward_233_img_6.png in Resources */,
+				BC509B6522A6680C00601E2F /* reward_111_img_6.png in Resources */,
+				BC509B7C22A6680C00601E2F /* reward_88_data.json in Resources */,
+				BC509B5722A6680C00601E2F /* reward_666_img_6.png in Resources */,
+				BC509B6F22A6680C00601E2F /* reward_520_img_1.png in Resources */,
+				BC509B6422A6680C00601E2F /* reward_111_img_7.png in Resources */,
+				BC509B5F22A6680C00601E2F /* reward_233_img_4.png in Resources */,
+				BC63E03D22A7BA4E0024E010 /* gold_like_coin4.png in Resources */,
+				BC509B6922A6680C00601E2F /* reward_111_img_0.png in Resources */,
+				BC509B5322A6680C00601E2F /* reward_666_img_0.png in Resources */,
+				BC509B7522A6680C00601E2F /* reward_88_img_5.png in Resources */,
+				BC509B4522A6680C00601E2F /* reward_888_img_11.png in Resources */,
+				BC509B5922A6680C00601E2F /* reward_666_img_5.png in Resources */,
+				BC509B6C22A6680C00601E2F /* reward_111_img_8.png in Resources */,
+				BC509B7722A6680C00601E2F /* reward_88_img_0.png in Resources */,
+				BC509B4D22A6680C00601E2F /* reward_888_img_5.png in Resources */,
+				BC509B6E22A6680C00601E2F /* reward_111_data.json in Resources */,
+				BC509B6A22A6680C00601E2F /* reward_111_img_2.png in Resources */,
+				BC63E04122A7BA4E0024E010 /* gold_like_coin2.png in Resources */,
+				BC509B5522A6680C00601E2F /* reward_666_img_3.png in Resources */,
+				BC509B5622A6680C00601E2F /* reward_666_img_7.png in Resources */,
+				BC509B6822A6680C00601E2F /* reward_111_img_1.png in Resources */,
+				BC509AC522A667D400601E2F /* Main.storyboard in Resources */,
+				BC509B5C22A6680C00601E2F /* reward_233_img_0.png in Resources */,
+				BC509B6722A6680C00601E2F /* reward_111_img_5.png in Resources */,
+				BC509B4622A6680C00601E2F /* reward_888_img_1.png in Resources */,
+				BC509B6222A6680C00601E2F /* reward_233_data.json in Resources */,
+				BC509B7B22A6680C00601E2F /* reward_88_img_9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC509AD022A667D400601E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC509ADB22A667D400601E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3B0F02801CC016DA46EDFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELFlyAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC509AB622A667D400601E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC509CF722A6722800601E2F /* LOTGradientFillRender.m in Sources */,
+				BC509CFE22A6722800601E2F /* LOTLayerGroup.m in Sources */,
+				BC509D1E22A6722800601E2F /* LOTKeyframe.m in Sources */,
+				BC509CFC22A6722800601E2F /* LOTLayer.m in Sources */,
+				BC509CF922A6722800601E2F /* LOTFillRenderer.m in Sources */,
+				BC509CE722A6722800601E2F /* LOTTrimPathNode.m in Sources */,
+				BC509D0522A6722800601E2F /* LOTShapeCircle.m in Sources */,
+				BC509CE822A6722800601E2F /* LOTColorInterpolator.m in Sources */,
+				BC509AFD22A667FB00601E2F /* ELRewardRMBScrollAnimationView.m in Sources */,
+				BC509CFD22A6722800601E2F /* LOTAssetGroup.m in Sources */,
+				BC509D0422A6722800601E2F /* LOTShapeRectangle.m in Sources */,
+				BC509CED22A6722800601E2F /* LOTTransformInterpolator.m in Sources */,
+				BC509CFA22A6722800601E2F /* LOTRepeaterRenderer.m in Sources */,
+				BC509CE922A6722800601E2F /* LOTPathInterpolator.m in Sources */,
+				BC509CFF22A6722800601E2F /* LOTShapeStar.m in Sources */,
+				BC509D1222A6722800601E2F /* CALayer+Compat.m in Sources */,
+				BC509D1722A6722800601E2F /* LOTAnimationView.m in Sources */,
+				BC509D0922A6722800601E2F /* LOTShapeTransform.m in Sources */,
+				BC509C1222A66C8A00601E2F /* UIView+Custom.m in Sources */,
+				BC509AC222A667D400601E2F /* ViewController.m in Sources */,
+				BC509D0622A6722800601E2F /* LOTShapePath.m in Sources */,
+				BC63E03322A7B2550024E010 /* ELBasic.m in Sources */,
+				BC509CF122A6722800601E2F /* LOTPathAnimator.m in Sources */,
+				BC509CF022A6722800601E2F /* LOTAnimatorNode.m in Sources */,
+				BC509D1122A6722800601E2F /* NSValue+Compat.m in Sources */,
+				BC509CF422A6722800601E2F /* LOTCircleAnimator.m in Sources */,
+				BC509D0C22A6722800601E2F /* LOTBezierPath.m in Sources */,
+				BC509D2122A6722800601E2F /* LOTCompositionContainer.m in Sources */,
+				BC509D0222A6722800601E2F /* LOTAsset.m in Sources */,
+				BC509CF322A6722800601E2F /* LOTPolygonAnimator.m in Sources */,
+				BC509D1F22A6722800601E2F /* LOTBezierData.m in Sources */,
+				BC509D0E22A6722800601E2F /* UIColor+Expanded.m in Sources */,
+				BC509D0B22A6722800601E2F /* CGGeometry+LOTAdditions.m in Sources */,
+				BC509D0A22A6722800601E2F /* LOTShapeStroke.m in Sources */,
+				BC509D1622A6722800601E2F /* LOTBlockCallback.m in Sources */,
+				BC509D1822A6722800601E2F /* LOTAnimationTransitionController.m in Sources */,
+				BC509D1922A6722800601E2F /* LOTKeypath.m in Sources */,
+				BC509D0D22A6722800601E2F /* LOTRadialGradientLayer.m in Sources */,
+				BC509CF822A6722800601E2F /* LOTStrokeRenderer.m in Sources */,
+				BC509CFB22A6722800601E2F /* LOTMask.m in Sources */,
+				BC509AFC22A667FB00601E2F /* ELRewardAnimationView.m in Sources */,
+				BC509CEB22A6722800601E2F /* LOTPointInterpolator.m in Sources */,
+				BC509D0122A6722800601E2F /* LOTShapeGradientFill.m in Sources */,
+				BC509D1A22A6722800601E2F /* LOTCacheProvider.m in Sources */,
+				BC509D2022A6722800601E2F /* LOTLayerContainer.m in Sources */,
+				BC509CEC22A6722800601E2F /* LOTValueInterpolator.m in Sources */,
+				BC509D0322A6722800601E2F /* LOTShapeRepeater.m in Sources */,
+				BC509D1B22A6722800601E2F /* LOTAnimatedControl.m in Sources */,
+				BC509D1322A6722800601E2F /* LOTAnimationCache.m in Sources */,
+				BC509D0722A6722800601E2F /* LOTShapeGroup.m in Sources */,
+				BC509CEE22A6722800601E2F /* LOTArrayInterpolator.m in Sources */,
+				BC509CF222A6722800601E2F /* LOTPolystarAnimator.m in Sources */,
+				BC509D1422A6722800601E2F /* LOTComposition.m in Sources */,
+				BC509D1C22A6722800601E2F /* LOTInterpolatorCallback.m in Sources */,
+				BC509CEF22A6722800601E2F /* LOTNumberInterpolator.m in Sources */,
+				BC509D1D22A6722800601E2F /* LOTAnimatedSwitch.m in Sources */,
+				BC509CEA22A6722800601E2F /* LOTSizeInterpolator.m in Sources */,
+				BC509ACD22A667D400601E2F /* main.m in Sources */,
+				BC509AFA22A667FB00601E2F /* ELRewardAnimationManager.m in Sources */,
+				BC509D0822A6722800601E2F /* LOTShapeFill.m in Sources */,
+				BC509CF522A6722800601E2F /* LOTRoundedRectAnimator.m in Sources */,
+				BC509ABF22A667D400601E2F /* AppDelegate.m in Sources */,
+				BC509D0F22A6722800601E2F /* UIBezierPath.m in Sources */,
+				BC509CE622A6722800601E2F /* LOTRenderNode.m in Sources */,
+				BC509D2222A6722800601E2F /* LOTMaskContainer.m in Sources */,
+				BC509D0022A6722800601E2F /* LOTShapeTrimPath.m in Sources */,
+				BC509CF622A6722800601E2F /* LOTRenderGroup.m in Sources */,
+				BC509AFB22A667FB00601E2F /* ELRewardButton.m in Sources */,
+				BC509D1522A6722800601E2F /* LOTValueCallback.m in Sources */,
+				BC509D1022A6722800601E2F /* UIColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC509ACE22A667D400601E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC509AD722A667D400601E2F /* ELFlyAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC509AD922A667D400601E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC509AE222A667D400601E2F /* ELFlyAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC509AD422A667D400601E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC509AB922A667D400601E2F /* ELFlyAnimationDemo */;
+			targetProxy = BC509AD322A667D400601E2F /* PBXContainerItemProxy */;
+		};
+		BC509ADF22A667D400601E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC509AB922A667D400601E2F /* ELFlyAnimationDemo */;
+			targetProxy = BC509ADE22A667D400601E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC509AC322A667D400601E2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC509AC422A667D400601E2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC509AC822A667D400601E2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC509AC922A667D400601E2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC509AE422A667D400601E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC509AE522A667D400601E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC509AE722A667D400601E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D99D1C88A04A08F7572F5E /* Pods-ELFlyAnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EACARN623L;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
+				INFOPLIST_FILE = ELFlyAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"$(SRCROOT)/3rd",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantLiar.ELFlyAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = "$(SRCROOT)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		BC509AE822A667D400601E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2F8C6D18CB1CD8EB49EC55 /* Pods-ELFlyAnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EACARN623L;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
+				INFOPLIST_FILE = ELFlyAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry\"",
+					"$(SRCROOT)/3rd",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantLiar.ELFlyAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = "$(SRCROOT)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+		BC509AEA22A667D400601E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ELFlyAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantLiar.ELFlyAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELFlyAnimationDemo.app/ELFlyAnimationDemo";
+			};
+			name = Debug;
+		};
+		BC509AEB22A667D400601E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ELFlyAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantLiar.ELFlyAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELFlyAnimationDemo.app/ELFlyAnimationDemo";
+			};
+			name = Release;
+		};
+		BC509AED22A667D400601E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ELFlyAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantLiar.ELFlyAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ELFlyAnimationDemo;
+			};
+			name = Debug;
+		};
+		BC509AEE22A667D400601E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ELFlyAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElegantLiar.ELFlyAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ELFlyAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC509AB522A667D300601E2F /* Build configuration list for PBXProject "ELFlyAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC509AE422A667D400601E2F /* Debug */,
+				BC509AE522A667D400601E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC509AE622A667D400601E2F /* Build configuration list for PBXNativeTarget "ELFlyAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC509AE722A667D400601E2F /* Debug */,
+				BC509AE822A667D400601E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC509AE922A667D400601E2F /* Build configuration list for PBXNativeTarget "ELFlyAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC509AEA22A667D400601E2F /* Debug */,
+				BC509AEB22A667D400601E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC509AEC22A667D400601E2F /* Build configuration list for PBXNativeTarget "ELFlyAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC509AED22A667D400601E2F /* Debug */,
+				BC509AEE22A667D400601E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC509AB222A667D300601E2F /* Project object */;
+}
